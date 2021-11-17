@@ -1,5 +1,5 @@
 ---
-layput: base
+layout: base
 ---
 
 # Hello World
