@@ -17,11 +17,11 @@ layout: base
        {% for post in site.posts %}
         <a href="{{ post.url }}" class="text-decoration-none">
           <article class="card">
-            <div class="card-header">
-              {{ post.title }}
+            <div class="card-body">
+              <strong>{{ post.title }}</strong>
             </div>
             <div class="card-footer">
-              <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+              <span class="text-muted"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time></span>
             </div>
           </article>
         </a>
