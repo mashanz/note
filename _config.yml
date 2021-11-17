@@ -1,5 +1,5 @@
 url     : https://mashanz.com/note  # the base hostname & protocol for your site e.g. https://www.someone.com
-baseurl : note # does not include hostname
+baseurl : # does not include hostname
 title   : Hanjara Adhyatma Notes
 description: > # this means to ignore newlines until "Language & timezone"
   Your Site Description
