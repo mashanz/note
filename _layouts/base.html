@@ -15,13 +15,10 @@ layout: base
       {{ content }}
       
        {% for post in site.posts %}
-        <a href="{{ post.url }}">
+        <a href="note/{{ post.url }}">
           <article class="card">
             <div class="card-header">
               {{ post.title }}
-            </div>
-            <div class="card-body">
-              {{ post.content }}
             </div>
             <div class="card-footer">
               <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
