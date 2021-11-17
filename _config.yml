@@ -1,0 +1,11 @@
+url     : https://mashanz.com/post  # the base hostname & protocol for your site e.g. https://www.someone.com
+baseurl : # does not include hostname
+title   : Hanjara Adhyatma Notes
+description: > # this means to ignore newlines until "Language & timezone"
+  Your Site Description
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
