@@ -4,6 +4,8 @@ title   : Hanjara Adhyatma Notes
 description: > # this means to ignore newlines until "Language & timezone"
   Your Site Description
 
+excerpt_separator: <!--more-->
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
