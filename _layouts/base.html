@@ -15,19 +15,19 @@ layout: base
       {{ content }}
       
        {% for post in site.posts %}
-        <article class="card">
-          <div class="card-header">
-            <a href="{{ post.url }}">
+        <a href="{{ post.url }}">
+          <article class="card">
+            <div class="card-header">
               {{ post.title }}
-            </a>
-          </div>
-          <div class="card-body">
-            {{ post.content }}
-          </div>
-          <div class="card-footer">
-            <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-          </div>
-        </article>
+            </div>
+            <div class="card-body">
+              {{ post.content }}
+            </div>
+            <div class="card-footer">
+              <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+            </div>
+          </article>
+        </a>
       {% endfor %}
       
     </div>
