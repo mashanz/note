@@ -1,3 +1,8 @@
+---
+title: 2022 Han's Roadmaps, Lets be more productive and consistance
+tags: Notes
+---
+
 # 2022 Roadmaps 🏄🏻‍♂️
 
 I am addicted to working full time remote since 2018. I decide will not accept any WFO (Except if they give me Sallary +100K USD Anually) 🤑
