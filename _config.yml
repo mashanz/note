@@ -1,6 +1,6 @@
 url     : https://mashanz.com # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Hanjara Adhyatma Notes
+title   : Han`s Notes
 description: > # this means to ignore newlines until "Language & timezone"
   Your Site Description
 
