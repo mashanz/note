@@ -1,3 +1,7 @@
+---
+layout: base
+---
+
 # Diki
 
 | Tanggal | Jumlah | Keterangan |
