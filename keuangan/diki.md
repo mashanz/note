@@ -10,12 +10,3 @@ layout: post
 | `2020-12-22` | Rp 8.000.000 | Lunasi Pinjol |
 | - | - | - |
 | Total | **Rp 13.000.000** | - |
-
-
-```py
-def hello():
-    print('Hello, world!')
-
-if __name__ == '__main__':
-    hello()
-```
