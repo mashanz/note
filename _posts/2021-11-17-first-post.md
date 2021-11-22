@@ -8,6 +8,10 @@ This is First Post
 
 Yes, This is other Details in Posts
 
-```
-author: Hanjara Cahya Adhyatma (mashanz)
+```py
+def hello():
+  print("Hello, World!")
+  
+if __name__=='__main__':
+  hello()
 ```
