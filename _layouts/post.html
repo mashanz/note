@@ -28,8 +28,8 @@ layout: post
     </header>
     
     <div class="container-lg px-3 my-5 markdown-body">
-        <span class="text-muted"><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></span>
-        
+        <span class="fw-bold text-primary text-small"><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></span>
+        <br/>
         {{ content }}
     </div>
 
