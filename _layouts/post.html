@@ -26,9 +26,10 @@ layout: post
     <header class="m-3 card text-center">
         <div class="card-body"><strong>{{ page.title }}</strong></div>
     </header>
-    <span class="text-muted"><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></span>
     
     <div class="container-lg px-3 my-5 markdown-body">
+        <span class="text-muted"><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></span>
+        
         {{ content }}
     </div>
 
