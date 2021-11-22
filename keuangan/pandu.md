@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Pandu Ajie Pratama
 
 | Tanggal | Jumlah | Keterangan |
