@@ -17,7 +17,7 @@ Untuk download dan instalasinya bisa lihat di [sini](https://www.docker.com/)
 - Buatlah sebuah folder projek misal `projek_odoo_ku`
 - buat sebuah file `docker-compose.yml` di dalam folder `projek_odoo_ku` 
 
-```.yml
+```yml
 version: "3.9"
 services:
   # DB SERVER
@@ -62,7 +62,7 @@ services:
 
 - Buat sebuah file `.env` di dalam folder `projek_odoo_ku` 
 
-```.env
+```env
 POSTGRES_DB = postgres
 POSTGRES_USER = odoo
 POSTGRES_PASSWORD = odoo
@@ -76,7 +76,7 @@ ODOO_EXPOSE_PORT = 8069
 
 - Buat sebuah file `odoo.conf` di dalam folder `projek_odoo_ku`
 
-```.conf
+```conf
 [options]
 addons_path = /mnt/extra-addons
 admin_passwd = admin
@@ -87,7 +87,7 @@ limit_time_real = 0
 
 Apabila semua file telah dibuat, maka hirarki projek folder akan nampak seperti berikut:
 
-```.md
+```md
 |- projek_odoo_ku
    |- .env
    |- docker-compose.yml
@@ -102,5 +102,16 @@ docker-compose up -d
 ```
 
 setelah itu, Odoo dapat dibuka di `http://localhost:8069` dan PgAdmin di halaman `http://localhost:8088`
+
+> Apabila odoo berhasil dibuka, hirarki folder akan terupdate menjadi berikut
+
+```md
+|- projek_odoo_ku           # [Folder] Project
+   |- .env                  # [File] Docker Environment
+   |- docker-compose.yml    # [File] Konfigurasi Docker
+   |- odoo.conf             # [File] Konfigurasi Server Odoo
+   |- addons                # [Folder] untuk menambahkan module baru/custom
+   |- docker_data           # [Folder] penyimpanan Odoo, PgAdmin, dan PostgreSQL
+```
 
 Done 🎯
