@@ -1,6 +1,6 @@
 ---
 title: Cara install Odoo 15, PostgreSQL, PgAdmin dengan Docker di semua OS
-tags: Tutorial
+tags: Tutorial Odoo
 ---
 
 ## 1. Persiapan
