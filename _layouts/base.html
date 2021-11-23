@@ -50,9 +50,9 @@ layout: base
           input = document.getElementById("pencarianArtikel");
           filter = input.value.toUpperCase();
           div = document.getElementById("DaftarArtikel");
-          a = ul.getElementsByTagName("a");
-          for (i = 0; i < li.length; i++) {
-            article = li[i].getElementsByTagName("article")[0];
+          a = div.getElementsByTagName("a");
+          for (i = 0; i < a.length; i++) {
+            article = a[i].getElementsByTagName("article")[0];
             if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
               a[i].style.display = "";
             } else {
