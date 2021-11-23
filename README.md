@@ -1,6 +1,11 @@
----
-layout: base
----
-
-# Hello World
-This is First Pages
+TOC
+0. [Belajar Dasar Website dan Jaringan Internet](#)
+1. [Belajar Dasar Git dengan GitHub](#)
+2. [Belajar Dasar Visual Studio Code](#)
+3. [Belajar Dasar HTML](https://mashanz.com/note/2021/11/23/belajar-dasar-html.html)
+4. [Belajar Dasar CSS](#)
+5. [Belajar Dasar JavaScript](#)
+6. [Belajar Dasar Python](#)
+7. [Belajar Dasar Django](#)
+8. [Belajar Dasar Bootstrap](#)
+9. [Belajar Dasar Docker](#)
