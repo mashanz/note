@@ -9,7 +9,7 @@ yang digunakan untuk membuat tampilan antar muka website, Desktop maupun Mobile.
 Umumnya Bahasa Penanda ini digunakan pada browser untuk merender tampilan antarmuka.
 
 ### Materi
-1. [Kaidah Penulisan HTML 5](#)
+1. [Kaidah Penulisan HTML 5 <i class="bi-lock"></i>](#)
 2. ["Hello World" pada HTML 5](#)
 3. [Typografi pada HTML 5](#)
 4. [Struktur Table pada HTML 5](#)
