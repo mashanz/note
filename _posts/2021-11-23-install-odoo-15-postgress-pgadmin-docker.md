@@ -15,7 +15,7 @@ Untuk download dan instalasinya bisa lihat di [sini](https://www.docker.com/)
 
 ## 2. Konfigurasi
 - Buatlah sebuah folder projek misal `projek_odoo_ku`
-- buat sebuah file `docker-compose.yml` di dalam folder `projek_odoo_ku`
+- buat sebuah file `docker-compose.yml` di dalam folder `projek_odoo_ku` 
 ```
 version: "3.9"
 services:
@@ -58,7 +58,8 @@ services:
       - ./odoo.conf:/etc/odoo/odoo.conf
       - ./docker_data/odoo:/var/lib/odoo
 ```
-- Buat sebuah file `.env` di dalam folder `projek_odoo_ku`
+
+- Buat sebuah file `.env` di dalam folder `projek_odoo_ku` 
 ```
 POSTGRES_DB = postgres
 POSTGRES_USER = odoo
@@ -70,6 +71,7 @@ PGADMIN_DEFAULT_PASSWORD = 123456
 PGADMIN_EXPOSE_PORT = 8088
 ODOO_EXPOSE_PORT = 8069
 ```
+
 - Buat sebuah file `odoo.conf` di dalam folder `projek_odoo_ku`
 ```
 [options]
