@@ -7,25 +7,25 @@ layout: post
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.title }}</title>
+    <title>{{ site.title }} | {{ page.title }}</title>
     
     <link rel="shortcut icon" href="https://mashanz.com/MashanzLogo.png" type="image/x-icon">
     
     <!-- Primary Meta Tags -->
-    <meta name="title" content="{{ site.title }}">
+    <meta name="title" content="{{ site.title }} | {{ page.title }}">
     <meta name="description" content="{%- if page.excerpt -%}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 160 }}{%- else -%}{{ site.description }}{%- endif -%}">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://mashanz.com/">
-    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:title" content="{{ site.title }} | {{ page.title }}">
     <meta property="og:description" content="{%- if page.excerpt -%}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 160 }}{%- else -%}{{ site.description }}{%- endif -%}">
     <meta property="og:image" content="https://mashanz.com/img.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://mashanz.com/">
-    <meta property="twitter:title" content="{{ site.title }}">
+    <meta property="twitter:title" content="{{ site.title }} | {{ page.title }}">
     <meta property="twitter:description" content="{%- if page.excerpt -%}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 160 }}{%- else -%}{{ site.description }}{%- endif -%}">
     <meta property="twitter:image" content="https://mashanz.com/img.png">
     
