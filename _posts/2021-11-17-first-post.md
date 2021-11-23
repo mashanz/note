@@ -3,15 +3,23 @@ title: First Post
 tags: Test
 ---
 
-This is First Post
+Post Pertama
 <!--more-->
 
-Yes, This is other Details in Posts
+Test Posting menggunakan Raw Jekyll dengan tema custom inherit GitHub Pages
 
 ```py
+# Contoh Penulisan Kode
 def hello():
   print("Hello, World!")
   
 if __name__=='__main__':
   hello()
 ```
+
+> Contoh Penulisan Table
+
+| No. | Nama |
+| :-: | :- |
+| 1. | Masterpiece |
+| 2. | Art of Code |
