@@ -6,7 +6,7 @@ tags: Tutorial HTML
 ## Pendahuluan Materi
 HTML (`Hyper Text Markup Language`) adalah `Bahasa Penanda` atau `Markup Language` 
 yang digunakan untuk membuat tampilan antar muka website, Desktop maupun Mobile. 
-Umumnya Bahasa Penanda ini digunakan pada browser untuk merender tampilan antarmuka.
+Umumnya Bahasa Penanda ini digunakan pada browser untuk melukiskan tampilan antarmuka.
 
 ## Daftar isi
 1. [Kaidah Penulisan HTML <i class="bi-lock-fill"></i>](#)
