@@ -16,7 +16,8 @@ Untuk download dan instalasinya bisa lihat di [sini](https://www.docker.com/)
 ## 2. Konfigurasi
 - Buatlah sebuah folder projek misal `projek_odoo_ku`
 - buat sebuah file `docker-compose.yml` di dalam folder `projek_odoo_ku` 
-```
+
+```.yml
 version: "3.9"
 services:
   # DB SERVER
@@ -60,7 +61,8 @@ services:
 ```
 
 - Buat sebuah file `.env` di dalam folder `projek_odoo_ku` 
-```
+
+```.env
 POSTGRES_DB = postgres
 POSTGRES_USER = odoo
 POSTGRES_PASSWORD = odoo
@@ -73,7 +75,8 @@ ODOO_EXPOSE_PORT = 8069
 ```
 
 - Buat sebuah file `odoo.conf` di dalam folder `projek_odoo_ku`
-```
+
+```.conf
 [options]
 addons_path = /mnt/extra-addons
 admin_passwd = admin
@@ -83,7 +86,8 @@ limit_time_real = 0
 ```
 
 Apabila semua file telah dibuat, maka hirarki projek folder akan nampak seperti berikut:
-```
+
+```.md
 |- projek_odoo_ku
    |- .env
    |- docker-compose.yml
@@ -92,6 +96,7 @@ Apabila semua file telah dibuat, maka hirarki projek folder akan nampak seperti 
 
 ## 3. Runing Docker
 masuk ke folder `projek_odoo_ku` dan jalankan perintah
+
 ```sh
 docker-compose up -d
 ```
