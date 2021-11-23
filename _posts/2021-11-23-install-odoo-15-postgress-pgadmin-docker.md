@@ -101,6 +101,6 @@ masuk ke folder `projek_odoo_ku` dan jalankan perintah
 docker-compose up -d
 ```
 
-setelah itu, Odoo dapat dibuka di http://localhost:8069 dan PgAdmin di halaman http://localhost:8088
+setelah itu, Odoo dapat dibuka di `http://localhost:8069` dan PgAdmin di halaman `http://localhost:8088`
 
 Done 🎯
