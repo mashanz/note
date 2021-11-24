@@ -51,8 +51,8 @@ layout: post
     <div class="container-lg px-3 my-5 markdown-body card card-body">
         <span class="fw-bold text-primary text-small">
             <i class="bi-person"></i> Hanjara Cahya Adhyatma<br/>
-            Publikasi: <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time><br/>
-            Update: <time datetime="{{ page.date_update | date: "%Y-%m-%d" }}">{{ page.date_update | date_to_long_string }}</time>
+            <span class="text-muted">publikasi: <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></span>
+            {% if page.date_update %}<br/><span class="text-muted">update: <time datetime="{{ page.date_update | date: "%Y-%m-%d" }}">{{ page.date_update | date_to_long_string }}</span></time>{% endif %}
         </span>
         <br/>
         {{ content }}
