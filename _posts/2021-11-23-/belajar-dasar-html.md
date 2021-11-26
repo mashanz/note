@@ -10,7 +10,7 @@ yang digunakan untuk membuat tampilan antar muka website, Desktop maupun Mobile.
 Umumnya Bahasa Penanda ini digunakan pada browser untuk melukiskan tampilan antarmuka.
 
 ## Daftar isi
-1. [Kaidah Penulisan HTML <i class="bi-lock-fill"></i>](#)
+1. [Kaidah Penulisan HTML](https://mashanz.com/note/2021/11/26/kaidah-penulisan-html.html)
 2. ["Hello World" pada HTML <i class="bi-lock-fill"></i>](#)
 3. [Typografi pada HTML <i class="bi-lock-fill"></i>](#)
 4. [Struktur Table pada HTML <i class="bi-lock-fill"></i>](#)
