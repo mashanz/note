@@ -48,17 +48,16 @@ layout: post
         <div class="card-body"><strong><h1>{{ page.title }}</h1></strong></div>
     </header>
     
-    <div class="container-lg px-3 my-5 markdown-body card card-body">
+    <section class="container-lg px-3 my-5 markdown-body card card-body">
         <span class="fw-bold text-primary text-small">
             <i class="bi-person"></i> Hanjara Cahya Adhyatma<br/>
             <span class="text-muted">publikasi: <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></span>
             {% if page.date_update %}<br/><span class="text-muted">update: <time datetime="{{ page.date_update | date: "%Y-%m-%d" }}">{{ page.date_update | date_to_long_string }}</span></time>{% endif %}
         </span>
         <br/>
-        {{ content }}
-    </div>
+        <articel>{{ content }}</articel><hr/>
+    </section>
 
-    <hr/>
     <footer class="m-2 card text-center">
         <span class="text-bold text-muted card-body"><strong><a href="/note">&copy <span id="year"></span> - Hanjara Cahya Adhyatma (mashanz)</a></strong></span>
     </footer>
