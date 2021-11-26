@@ -56,10 +56,10 @@ Penjelasan dari struktur tag `head` dan `body`:
 ```
 {:.alert.alert-success}
 
-<div class="container-fluid border-top">
-    <div class="row">
-        <a href="#" class="col fw-bold">Back</a>
+<div class="container-fluid border-top pt-3">
+    <div class="row text-center">
+        <a href="#" class="col fw-bold text-left">Back</a>
         <a href="https://mashanz.com/note/2021/11/23/belajar-dasar-html.html" class="col fw-bold">ToC</a>
-        <a href="#" class="col fw-bold">Next</a>
+        <a href="#" class="col fw-bold text-right">Next</a>
     </div>
 </div>
