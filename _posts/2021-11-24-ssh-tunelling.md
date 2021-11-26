@@ -1,5 +1,6 @@
 ---
 title: Alternative NGROK, Cara Forward Port ke VPS dengan SSH tunelling.
+date_update: 2021-11-26 00:00:00 +0000
 ---
 
 Banyak cara untuk mempublikasikan suatu website langsung dari lokal komputer lokal ke jaringan internet dunia.
