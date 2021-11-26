@@ -17,7 +17,8 @@ if __name__=='__main__':
   hello()
 ```
 
-> Contoh Penulisan Table
+Contoh Penulisan Table
+{:.alert.alert-success}
 
 | No. | Nama |
 | :-: | :- |

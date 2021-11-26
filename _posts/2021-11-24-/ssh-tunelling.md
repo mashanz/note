@@ -8,7 +8,7 @@ Salah satu contohnya adalah menggunakan layanan NGROK atau menggunakan SSH tunel
 
 Dalam artikel ini akan dibahas bagaimana caranya mempublikasikan website di `localhost` komputer ke internet menggunakan SSH tunel dengan fitur Gateway Port.
 
-![Gateway Port](https://raw.githubusercontent.com/mashanz/note/main/media/GatewayPort.svg)
+![Gateway Port](GatewayPort.svg)
 
 ## Tahapan Publikasi Web dari komputer lokal ke Internet
 
