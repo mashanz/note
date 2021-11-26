@@ -56,16 +56,10 @@ Penjelasan dari struktur tag `head` dan `body`:
 ```
 {:.alert.alert-success}
 
-<hr/>
-
-<p>
-    <span class="text-left">
-        <a href="" hidden></a>
-    </span>
-    <span class="text-center">
-        <a href="https://mashanz.com/note/2021/11/23/belajar-dasar-html.html" hidden>TOC</a>
-    </span>
-    <span class="text-right">
-        <a href="" hidden></a>
-    </span>
-</p>
+<div class="container-fluid border-top">
+    <div class="row">
+        <a href="#" class="col fw-bold">Back</a>
+        <a href="https://mashanz.com/note/2021/11/23/belajar-dasar-html.html" class="col fw-bold">ToC</a>
+        <a href="#" class="col fw-bold">Next</a>
+    </div>
+</div>
