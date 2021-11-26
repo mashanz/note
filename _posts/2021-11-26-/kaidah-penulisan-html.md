@@ -21,6 +21,7 @@ Perhatikan ilustrasi dibawah berikut!
                 |
 </html>     <---+
 ```
+{:.alert.alert-success}
 
 Setiap tag yang berpasangan harus ditulis dengan format di atas. Karna itu berfungsi sebagai penanda/marking pada browser. Sehingga browser dapat mengetahui mulai darimana dan sampai mana element harus di Render.
 {:.alert.alert-success}
@@ -39,6 +40,7 @@ untuk penulisan struktur tag `head` dan `body` dapat dilihat di bawah ini:
 ```
 
 Penjelasan dari struktur tag `head` dan `body`:
+
 ```
 <html>          <---------------------------+
                                             |
@@ -53,3 +55,17 @@ Penjelasan dari struktur tag `head` dan `body`:
 </html>         <---------------------------+
 ```
 {:.alert.alert-success}
+
+<hr/>
+
+<p>
+    <span class="text-left">
+        <a href="" hidden></a>
+    </span>
+    <span class="text-center">
+        <a href="https://mashanz.com/note/2021/11/23/belajar-dasar-html.html" hidden>TOC</a>
+    </span>
+    <span class="text-right">
+        <a href="" hidden></a>
+    </span>
+</p>
