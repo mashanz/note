@@ -1,6 +1,7 @@
 ---
 title: Cara install Odoo 15, PostgreSQL, PgAdmin dengan Docker di semua OS
 tags: Tutorial Odoo
+date_update: 2021-11-26 00:00:00 +0000
 ---
 
 ## 1. Persiapan
@@ -103,7 +104,8 @@ docker-compose up -d
 
 setelah itu, Odoo dapat dibuka di `http://localhost:8069` dan PgAdmin di halaman `http://localhost:8088`
 
-> Apabila odoo berhasil dibuka, hirarki folder akan terupdate menjadi berikut
+Apabila odoo berhasil dibuka, hirarki folder akan terupdate menjadi berikut
+{:.alert.alert-success}
 
 ```md
 |- projek_odoo_ku           # [Folder] Project
