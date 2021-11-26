@@ -50,3 +50,6 @@ command di atas akan membawa kita login ke server melalui SSH.
 setelah berhasil login, buka browser dan buka alamat `123.123.123.123:8000`
 
 Well done! 🎯, alamat web lokal di komputer `localhost:80` sudah bisa di akses oleh publik di dunia dengan alamat `123.123.123.123:8000`
+
+`Test`{:.success}
+`test`{:.alert.alert-success}
