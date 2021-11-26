@@ -44,12 +44,9 @@ Maka, Login ke server menggunakan command SSH berikut:
 ssh -R 8000:localhost:80 pengguna@123.123.123.123
 ```
 
-> Setelah menjalankan command di atas, kalian akan diminta password atau auto login menggunakan ssh `.key` / `.pem` tergantung settingan server
+> Setelah menjalankan command di atas, kalian akan diminta password atau auto login menggunakan ssh `.key` / `.pem` tergantung settingan server {:.alert.alert-success}
 
 command di atas akan membawa kita login ke server melalui SSH. 
 setelah berhasil login, buka browser dan buka alamat `123.123.123.123:8000`
 
 Well done! 🎯, alamat web lokal di komputer `localhost:80` sudah bisa di akses oleh publik di dunia dengan alamat `123.123.123.123:8000`
-
-`Test`{:.success}
-`test`{:.alert.alert-success}
