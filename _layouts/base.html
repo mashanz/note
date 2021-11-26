@@ -17,7 +17,7 @@ layout: base
       .col {
         min-width: 200px;
       }
-      .card-body {
+      .cb {
         min-height: 150px;
       }
     </style>
@@ -35,7 +35,7 @@ layout: base
        {% if '/' != first_char %}
         <a href="{{ post.url | relative_url }}" class="text-decoration-none col">
           <article class="card">
-            <div class="card-body">
+            <div class="card-body cb">
               <strong>{{ post.title }}</strong>
             </div>
             <div class="card-footer">
