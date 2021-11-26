@@ -21,25 +21,29 @@ Login dengan perintah `ssh pengguna@123.123.123.123` atau dengan cara lain yang 
 
 edit file `/etc/ssh/sshd_config` dengan hak akses root dan tambahkan/edit line `GatewayPorts yes` 
 
-> dalam kasus ini. ada beberapa server yang sudah terdapat line `#GatewayPorts no`. rubah line ini menjadi `GatewayPorts yes` (tanpa pagar dan `no` menjadi `yes`)
+dalam kasus ini. ada beberapa server yang sudah terdapat line `#GatewayPorts no`. rubah line ini menjadi `GatewayPorts yes` (tanpa pagar dan `no` menjadi `yes`)
+{:.alert.alert-success}
 
 setelah itu restart service SSH dengan command `service ssh restart` (gunakan `sudo` jika dibutuhkan hak akses root)
 
 ### 3. Aktifkan Server di Lokal komputer
 Misal di lokal komputer terinstall `LAMPP` atau `XAMPP` dengan port lokal `80` (berarti web bisa dibuka di alamat `http://localhost:80` atau `http://localhost`)
 
-> selain `XAMPP` atau `LAMPP`. bisa juga forward service lain dari port berbeda seperti NodeJS atau Django dari port `8000` atau port `5000` atau port lainnya
+selain `XAMPP` atau `LAMPP`. bisa juga forward service lain dari port berbeda seperti NodeJS atau Django dari port `8000` atau port `5000` atau port lainnya
+{:.alert.alert-success}
 
 Perlu di ingat. Pastikan service/server di lokal dapat di buka di browser lokal
 
 ### 4. Forward Server Lokal ke Internet dengan SSH tunelling
 Forward ke VPS/internet dengan format 
+
 ```
 ssh -R <PORT_VPS>:<DOMAIN_LOCAL>:<PORT_LOCAL> <USER>@<IP_VPS>
 ```
 
 Misal port yang di jalankan di lokal adalah port `localhost:80` dan akan di forward ke vps di `123.123.123.123:8000`.
 Maka, Login ke server menggunakan command SSH berikut:
+
 ```sh
 ssh -R 8000:localhost:80 pengguna@123.123.123.123
 ```
