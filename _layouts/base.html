@@ -28,6 +28,7 @@ layout: base
       {{ content }}
       
        {% for post in site.posts %}
+       {% if '/' not in post.title %}
         <a href="{{ post.url | relative_url }}" class="text-decoration-none col">
           <article class="card">
             <div class="card-body">
@@ -38,6 +39,7 @@ layout: base
             </div>
           </article>
         </a>
+      {% endif %}
       {% endfor %}
       
     </div>
