@@ -28,13 +28,15 @@ layout: base
       {{ content }}
       
        {% for post in site.posts %}
-       {% if '/' != post.title | slice: 0 %}
+       {% assign first_char = post.title | slice: 0 %}
+       {% if '/' != first_char %}
         <a href="{{ post.url | relative_url }}" class="text-decoration-none col">
           <article class="card">
             <div class="card-body">
               <strong>{{ post.title }}</strong>
             </div>
             <div class="card-footer">
+              {{ first_char }}
               <span class="text-muted"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time></span>
             </div>
           </article>
