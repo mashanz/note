@@ -1,5 +1,5 @@
 ---
-title: Deploy Aplikasi React ke Github Pages
+title: Deploy Aplikasi React ke Github Pages ⚛
 ---
 
 ReactJS adalah Framework frontend yang dapat digunakan untuk membuat aplikasi web.
